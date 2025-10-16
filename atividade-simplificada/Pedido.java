@@ -1,7 +1,7 @@
 // Classe que representa o Pedido
 class Pedido {
     private java.util.List<Item> itens = new java.util.ArrayList<>();
-    private String tipoPagamento; // "cartao", "boleto"
+    private TipoDePagamento tipoPagamento; // "cartao", "boleto"
 
     public void adicionarItem(Item item) {
         itens.add(item);
