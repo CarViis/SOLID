@@ -1,6 +1,5 @@
 public class Email {
-
-    public void enviarEmail(){
+    public static void enviarEmail(){
         System.out.println("Enviando e-mail de confirmação...");
     }
 }

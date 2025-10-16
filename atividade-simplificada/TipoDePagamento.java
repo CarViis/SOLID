@@ -1,3 +1,3 @@
 public interface TipoDePagamento {
-    public processarPagamento();
+    public void processarPagamento();
 }
